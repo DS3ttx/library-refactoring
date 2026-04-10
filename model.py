@@ -6,6 +6,7 @@ class Price:
         pass
 
 class RegulaPrice(Price):
+    # acabei fazendo no commit 9
     def get_charge(self, days_rented: int) -> float:
         amount = 2
         if days_rented > 2:
